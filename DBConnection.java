@@ -13,7 +13,7 @@ public class DBConnection {
     private static final String USER = "postgres";
 
     // my postgres password
-    private static final String PASSWORD = "shreya";
+    private static final String PASSWORD = "your_password";
 
     // this method will return connection object
     public static Connection getConnection() {
@@ -57,4 +57,5 @@ public class DBConnection {
             System.out.println("Connection Failed!");
         }
     }
+
 }
